@@ -1,0 +1,20 @@
+.card_main_container1 {
+  display: flex;
+  justify-content: center;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.card_main_container2 {
+  margin: 50px 30px;
+  width: 100%;
+  columns: 4;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  
+}
+
+.more_margin {
+  margin: 100px 30px;
+}

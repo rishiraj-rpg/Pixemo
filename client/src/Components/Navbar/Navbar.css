@@ -1,0 +1,135 @@
+.logo2 {
+  height: 80px;
+  width: 200px;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.navbar_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  /* background-color: white; */
+  backdrop-filter: blur(20px);
+  margin: 0;
+  padding: 0;
+  /* border-bottom: 0.5px dotted grey; */
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.link_container_left {
+  padding: 0;
+  font-size: 20px;
+  margin: 0px 30px;
+}
+
+.link {
+  margin: 5px;
+  padding: 5px 15px;
+  background-color: var(--white);
+  border-radius: 34px;
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.link:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.active {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.link_container_left li:hover,
+.link_container_right li:hover {
+  cursor: pointer;
+}
+
+.search_container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-size: 25px;
+  padding: 12px 20px;
+  border-radius: 49px;
+  box-shadow: 0 1px 5px;
+  background-color: var(--white);
+}
+
+.search_input {
+  width: 100%;
+  font-size: 20px;
+  margin: 0 10px;
+  border: none;
+  outline: none;
+}
+
+.search_container:hover {
+  transform: scale(1.025);
+  box-shadow: 0 2.5px 10px;
+  transition: all ease-in-out 250ms;
+}
+
+.search_icon {
+  margin: 0px 10px;
+  font-size: 25px;
+  color: var(--black);
+}
+
+::placeholder {
+  color: #3c4048;
+  opacity: 1;
+}
+
+.link_container_right {
+  margin: 0px 30px;
+  align-items: center;
+  padding: 0;
+  font-size: 20px;
+}
+
+.link_container_right :nth-child(n) {
+  margin: 0 5px;
+}
+
+.nav_profile_pic {
+  box-shadow: 0 0 5px var(--black);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.nav_profile_pic:hover {
+  box-shadow: 0 0 10px var(--primary);
+  transition: all ease-in-out 250ms;
+}
+
+.logout-btn {
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: var(--white);
+  box-shadow: 0 0 5px var(--black);
+  color: var(--black);
+}
+
+.logout-btn:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.active_profile {
+  box-shadow: 0 0 10px var(--primary);
+}

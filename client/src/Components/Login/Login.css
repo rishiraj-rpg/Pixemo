@@ -1,0 +1,22 @@
+.login_flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 110px 0 50px 0;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.login_container{
+  box-shadow: 0 0 10px var(--black);
+  border-radius: 10px;
+  padding: 50px 100px;
+}
+
+.login_svg{
+  margin-left: 100px;
+  width: 500px;
+  height: 500px;
+}

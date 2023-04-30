@@ -1,0 +1,98 @@
+.card_image{
+  max-height: 100%;
+  max-width: 100%;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.card_container{
+  margin: 0 0 20px;
+  /* overflow: scroll; 
+  break-inside: avoid; */
+  position: relative;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.card_container:hover{
+  
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+.card_container:hover > .card_image{
+  transform: scale(1.075);
+  transition: all 250ms ease-in-out;
+  opacity: 0.5;
+}
+
+.card_username{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  width: 90%;
+  word-wrap: break-word;
+  margin: 15px 10px;
+  text-align: left;
+  width: 93%;
+}
+
+.card_container:hover>.card_username {
+  visibility: visible;
+}
+
+.card_header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  z-index: 1;
+  margin: 15px 10px;
+  width: 93%;
+}
+
+.card_title{
+  margin: 0;
+  width: 45%;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.card_container:hover>.card_header {
+  visibility: visible;
+}
+
+.card_icon-container{
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_bookmark, .icon_heart, .icon_delete{
+  margin: 0 2px;
+  font-size: 22px;
+  background-color: white;
+  box-shadow: 0 0 5px var(--black);
+  padding: 5px 7px 2px 7px;
+  border-radius: 50%;
+}
+
+.icon_bookmark{
+  color: #318CE7;
+}
+
+.icon_heart{
+  color: red;
+}
+
+.icon_heart:hover, .icon_bookmark:hover, .icon_delete:hover{
+  transform: scale(1.05);
+  box-shadow: 0 2.5px 10px var(--black);
+  transition: all ease-in-out 100ms;
+}

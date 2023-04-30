@@ -1,0 +1,157 @@
+.post_flex_container {
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.post_container {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px;
+  border-radius: 10px;
+  padding: 20px 70px;
+  /* background-color: var(--white); */ 
+}
+
+.post_main_container h1 {
+  text-align: center;
+  margin: 40px;
+}
+
+.post_input_container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.post_left_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.post_right_container {
+  margin: 20px;
+  text-align: center;
+  padding: 30px;
+}
+
+.post_input_container {
+  text-align: left;
+}
+
+.upload_container {
+  font-size: 20px;
+}
+
+.upload_icon {
+  font-size: 60px;
+  margin: 10px;
+  color: var(--black);
+}
+
+.upload_icon:hover {
+  cursor: pointer;
+}
+
+.canvas {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-style: dashed;
+  border-width: 3px;
+  border-color: var(--black);
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.uploaded-image {
+  max-height: 300px;
+  max-width: 300px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.post_input_container-label {
+  margin: 5px;
+}
+
+.post_input_container-label {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.post_input_container-input {
+  width: 250px;
+  height: 25px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: 1px solid gray;
+  font-size: 15px;
+}
+
+.post {
+  margin-top: 40px;
+}
+
+.textarea {
+  resize: none;
+  height: 100px;
+  background-color: var(--white);
+  font-family: "Verdana";
+}
+
+.delete_icon {
+  margin: 20px;
+  font-size: 30px;
+  color: red;
+}
+
+.delete_icon:hover {
+  cursor: pointer;
+}
+
+.emoji_btn {
+  display: inline-block;
+  padding: 8px;
+  border: none;
+  margin: 5px;
+  font-size: 30px;
+  background: none;
+}
+
+.emoji_btn:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: transform 250ms ease-in-out;
+}
+
+.loader_container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.loader {
+  border: 6px solid rgb(206, 206, 206); /* Light grey */
+  border-top: 6px solid var(--primary); /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+  margin-left: 10px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
