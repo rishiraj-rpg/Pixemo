@@ -13,7 +13,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import axios from "axios";
 
 const Card = ({ username, title, postImageURL, _id, bookmark, like }) => {
@@ -104,7 +103,7 @@ const Card = ({ username, title, postImageURL, _id, bookmark, like }) => {
   };
 
   return (
-    <div className="card_container" data-aos="fade-up" data-aos-once="true">
+    <div className="card_container">
       <div className="card_header">
         <p className="card_title"></p>
         <div className="card_icon-container">
@@ -140,7 +139,9 @@ const Card = ({ username, title, postImageURL, _id, bookmark, like }) => {
       </div>
 
       <Link style={{ display: "block" }} to={`/post/${_id}`}>
-        <LazyLoadImage
+        <img
+          data-aos="fade-up"
+          data-aos-once="true"
           src={postImageURL}
           alt=""
           className="card_image"

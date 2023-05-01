@@ -41,6 +41,7 @@ const Profile = () => {
     if (user) {
       setCurrentUser(JSON.parse(user));
     }
+    setActive("")
   }, [setActive]);
 
   function handleChange(e) {
@@ -171,7 +172,8 @@ const Profile = () => {
           </ul>
         </div>
       </div>
-      <Posts data={data} />
+      {active? <Posts data={data} />: ""}
+      
     </div>
   );
 };

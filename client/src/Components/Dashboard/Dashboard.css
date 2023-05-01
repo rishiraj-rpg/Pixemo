@@ -10,6 +10,11 @@
   overflow: hidden;
 }
 
+.dashboard_main-container{
+  max-width: 100vw;
+  overflow-y: hidden;
+}
+
 .header1{
   font-size: 55px;
   margin: 0;

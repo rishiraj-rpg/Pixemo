@@ -110,7 +110,7 @@ const Posts = (props) => {
       >
         {posts.length === 0 ? (
           <div>
-            <p style={{ fontSize: "25px" }}>No posts to display!!</p>
+            <p style={{ fontSize: "20px", justifyContent: "center"}}>No posts to display!</p>
           </div>
         ) : (
           posts.map((post, index) => {
