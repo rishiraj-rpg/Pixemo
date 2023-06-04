@@ -1,17 +1,21 @@
 <h1 align="center">PIXEMO</h1>
-PIXEMO aims at combining the concepts of image captioning and emoji prediction to provide a unique webapp experience for its users, boost engagement on social media, websites, and other digital platforms by providing automatic captions and emojis, spark creativity and self-expression by offering a wide range of automatic captions and emojis that users can choose from or customize.
+A web application that empowers users to effortlessly upload images and instantly generates automatic captions with relevant emojis.
 
 <h3 align="left">Features:</h3>
 
-1. Image Captioning: Pixemo will provide automatic captioning functionality for images and videos uploaded by users. The system will utilize advanced computer vision techniques to accurately understand the visual content and generate context-aware captions that effectively describe the content.
+1. Image Captioning: Pixemo provides automatic captioning functionality for images uploaded by users. 
 
-2. Emotion-based Emoji Generation: Pixemo will also generate emojis that are contextually relevant to the emotions conveyed by the visual content. The system will utilize sentiment analysis and emotion recognition algorithms to accurately identify the emotions depicted in the images or videos and generate appropriate emojis that enhance the emotional engagement of the content.
+2. Emoji Generation: Pixemo also generates emojis that are contextually relevant to the comments and the captions provided by the model.
 
-3. Customization Options: Pixemo will allow users to customize the generated captions and emojis according to their preferences. Users will be able to edit, modify, or add their own captions and emojis to ensure that the generated content aligns with their intended message and creative vision.
+3. Multiple emoji options: Pixemo offers a wide range of emoji options that users can include in their comments or reactions to posts. This allows for more expressive and engaging interactions within the community.
 
-4. User-friendly Interface: Pixemo will provide a user-friendly web-based interface that is easy to navigate and use. Users will be able to upload images or videos, review and edit the generated captions and emojis, and download the final results in a convenient and intuitive manner.
+4. Customization Options: Pixemo allows users to customize the generated captions and emojis according to their preferences. Users can edit, modify, or add their own captions and emojis to ensure that the generated content aligns with their intended message and creative vision.
 
-5. Scalability and Performance: Pixemo will be designed to handle a large number of image and video uploads, and the system will be optimized for performance to ensure fast and efficient caption and emoji generation. The system will also be scalable to accommodate future updates and improvements. 
+5. Comment on a post: Users can engage with posts by leaving comments, allowing them to express their thoughts, ask questions, or engage in discussions.
+
+6. Search through content: The web application provides search functionality that enables users to easily find specific posts or content based on keywords, tags, or other search criteria.
+
+7. Bookmark and like a post: Users have the ability to bookmark or save posts they find interesting or want to revisit later. Additionally, they can express appreciation for posts by liking them, indicating their approval or enjoyment.
 
 <h3 align="left">Technologies Used:</h3>
 
