@@ -29,7 +29,7 @@ A web application that empowers users to effortlessly upload images and instantl
 
 5. AWS S3 Storage for storing user profile photo
 
-6. Deep Learning for Predicting Image Captions and Emojis
+6. Deep Learning for generating Image Captions and Emojis
 
 <h3 align="left">Getting Started:</h3>
 To run Pixemo locally on your machine, follow these steps:
@@ -102,9 +102,3 @@ If you would like to contribute to Pixemo, you can follow these steps:
 
 <h3 align="left">Licence:</h3>
 Pixemo is released under the MIT License.
-
-
-Feel free to update and customize this README to suit your specific project needs. If you have any questions or need further assistance, please feel free to ask.
-
-
-
