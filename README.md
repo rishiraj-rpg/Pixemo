@@ -29,7 +29,7 @@ A web application that empowers users to effortlessly upload images and instantl
 
 5. AWS S3 Storage for storing user profile photo
 
-6. Machine Learning for Predicting Image Captions and Emojis
+6. Deep Learning for Predicting Image Captions and Emojis
 
 <h3 align="left">Getting Started:</h3>
 To run Pixemo locally on your machine, follow these steps:
@@ -44,7 +44,7 @@ To run Pixemo locally on your machine, follow these steps:
 
 5. Start the frontend development server: npm run start (in the frontend directory)
 
-6. Run ML model files for image captioning and emoji prediction: cd ./client/model && python emoji_pred.py image_caption.py main.py (in the frontend directory)
+6. Run DL model files for image captioning and emoji prediction: cd ./client/model && python emoji_pred.py image_caption.py main.py (in the frontend directory)
 
 7. Open your web browser and go to http://localhost:3000 to access Pixemo.
 
